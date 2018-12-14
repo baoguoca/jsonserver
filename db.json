@@ -1,22 +1,26 @@
 {
-    "posts": [
-      {
-        "id": 1,
-        "title": "Azure Functions",
-        "completed": false,
-        "editing": false,
-      },
-      {
-        "id": 2,
-        "title": "Angular",
-        "completed": false,
-        "editing": false,
-      },
-      {
-        "id": 3,
-        "title": "Git",
-        "completed": false,
-        "editing": false,
-      }
-    ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Azure Functions",
+      "completed": false,
+      "editing": false
+    },
+    {
+      "id": 2,
+      "title": "Angular",
+      "completed": false,
+      "editing": false
+    },
+    {
+      "id": 3,
+      "title": "Git",
+      "completed": false,
+      "editing": false
+    }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
 }
